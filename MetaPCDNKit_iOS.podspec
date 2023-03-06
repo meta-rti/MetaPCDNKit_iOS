@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MetaPCDNKit_iOS'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MetaPCDNKit_iOS.'
+  s.version          = '0.1.1'
+  s.summary          = '无极云首创pcdn直播平台SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    无极云首创pcdn直播平台SDK.
                        DESC
 
-  s.homepage         = 'https://github.com/jion-y/MetaPCDNKit_iOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://www.wuji.co/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jion-y' => 'liuming@wuji.co' }
-  s.source           = { :git => 'https://github.com/jion-y/MetaPCDNKit_iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'MetaPCDNKit_iOS/Classes/**/*'
+  s.author           = { 'wuji' => 'support@wuji.co' }
+  s.source           = { :http => 'https://sd.wuji.co/pcdn/sdk/release/iOS/META_PCDN_SDK_FOR_iOS_V1_0_0_1_FULL.zip', :type => 'zip' }
   
-  # s.resource_bundles = {
-  #   'MetaPCDNKit_iOS' => ['MetaPCDNKit_iOS/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  s.vendored_frameworks = 'META_PCDN_SDK_FOR_iOS_V1_0_0_1_FULL/*.xcframework'
+   s.frameworks = 'UIKit', 'Accelerate','SystemConfiguration','CoreTelephony','MobileCoreServices'
+   s.library = 'c++'
 end

@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'MetaPCDNKit_iOS_Example' do
-  pod 'MetaPCDNKit_iOS', :path => '../'
+  #pod 'MetaPCDNKit_iOS',:podspec => '../'
 
   target 'MetaPCDNKit_iOS_Tests' do
     inherit! :search_paths

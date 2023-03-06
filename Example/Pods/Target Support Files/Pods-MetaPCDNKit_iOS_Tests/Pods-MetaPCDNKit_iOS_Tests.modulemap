@@ -1,0 +1,6 @@
+framework module Pods_MetaPCDNKit_iOS_Tests {
+  umbrella header "Pods-MetaPCDNKit_iOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
