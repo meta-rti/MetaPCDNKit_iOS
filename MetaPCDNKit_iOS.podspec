@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MetaPCDNKit_iOS'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '无极云首创pcdn直播平台SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,11 @@ Pod::Spec.new do |s|
    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
    
    s.default_subspec = 'MetaPCDNKit'
+   s.license      = { :type => 'Proprietary',
+              :text => <<-LICENSE
+                  copyright 2019 wuji Ltd. All rights reserved.
+                  LICENSE
+               }
    
    
    s.subspec 'MetaPCDNKit' do |kit|
