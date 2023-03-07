@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MetaPCDNKit_iOS'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '无极云首创pcdn直播平台SDK.'
 
 # This description is used to generate tags and improve search results.
