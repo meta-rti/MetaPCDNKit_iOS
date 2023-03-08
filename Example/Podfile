@@ -7,7 +7,6 @@ target 'MetaPCDNKit_iOS_Example' do
 
   target 'MetaPCDNKit_iOS_Tests' do
     inherit! :search_paths
-
     
   end
 end
