@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MetaPCDNKit_iOS'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '无极云首创pcdn直播平台SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.wuji.co/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuji' => 'support@wuji.co' }
-  s.source           = { :http => 'https://sd.wuji.co/pcdn/sdk/release/iOS/META_PCDN_SDK_FOR_iOS_V1_1_0_2_FULL.zip', :type => 'zip' }
+  s.source           = { :http => 'https://sd.wuji.co/pcdn/sdk/release/iOS/META_PCDN_SDK_FOR_iOS_V1_1_0_3_FULL.zip', :type => 'zip' }
   
   s.ios.deployment_target = '10.0'
   
